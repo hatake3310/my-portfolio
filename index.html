@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Hatake</title>
+    <meta name="description" content="Hatakeのポートフォリオサイトです。GitHub Pagesのハンズオンで作成しました。">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+JP:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="avatar-container">
+                <img src="profile.png" alt="Profile Avatar" class="avatar">
+            </div>
+            <h1>Hatake</h1>
+            <p class="subtitle">Software Engineer / Tech Enthusiast</p>
+
+            <div class="social-links">
+                <a href="https://github.com/hatake3310" target="_blank" class="social-btn" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-btn" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="mailto:example@email.com" class="social-btn" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2><i class="fas fa-user"></i> About Me</h2>
+                <p>
+                    こんにちは！私はテクノロジーとデザインが大好きなエンジニアです。
+                    新しい技術を学ぶことに情熱を注いでおり、常にクリエイティブな解決策を探求しています。
+                </p>
+                <p>
+                    現在はGitHub Pagesを使ったWebサイト公開のハンズオンに取り組んでおり、
+                    このポートフォリオサイトはその成果物の一つです。
+                    シンプルかつモダンなデザインを心がけて作成しました。
+                </p>
+            </section>
+
+            <section class="card">
+                <h2><i class="fas fa-code"></i> Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-tag">HTML5</div>
+                    <div class="skill-tag">CSS3</div>
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">Git</div>
+                    <div class="skill-tag">GitHub</div>
+                    <div class="skill-tag">VS Code</div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2><i class="fas fa-rocket"></i> Projects</h2>
+                <p>現在取り組んでいるプロジェクトの一部です。</p>
+                <ul style="list-style: none; padding-left: 0;">
+                    <li
+                        style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--glass-border);">
+                        <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem; color: #fff;">My Portfolio</h3>
+                        <p style="font-size: 0.9rem;">このWebサイトです。HTML/CSSで構築し、GitHub Pagesでホスティングしています。</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer style="text-align: center; padding: 2rem 0; color: var(--secondary-color); font-size: 0.9rem;">
+            <p>&copy; 2025 Hatake. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
